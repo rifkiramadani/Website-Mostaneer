@@ -1,0 +1,32 @@
+body {
+  background-image: url("assets/94887004_hhyttr\ 9.jpg");
+}
+
+*,
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+nav {
+  background-color: #0099ff;
+}
+
+#navbar-container {
+  margin-bottom: 50px;
+}
+
+#title-image-content {
+  width: 20rem;
+}
+
+#content-container {
+  margin-bottom: 45px;
+}
+
+#title {
+  font-size: 3rem;
+  font-weight: 600;
+}
