@@ -1,32 +1,81 @@
-body {
-  background-image: url("assets/94887004_hhyttr\ 9.jpg");
-}
-
 *,
 body,
 html {
-  padding: 0;
-  margin: 0;
   font-family: "Nunito Sans", sans-serif;
 }
 
 nav {
-  background-color: #0099ff;
+  background-color: #0d6efd;
 }
 
-#navbar-container {
-  margin-bottom: 50px;
+/* .jumbotron {
+  padding-top: 6rem;
+} */
+
+section {
+  padding-top: 5rem;
 }
 
-#title-image-content {
-  width: 20rem;
+#visimisi {
+  background-color: #e2edff;
 }
 
-#content-container {
-  margin-bottom: 45px;
+#sejarah {
+  background-color: #ffff;
 }
 
-#title {
-  font-size: 3rem;
-  font-weight: 600;
+#kegiatan {
+  background-color: #e2edff;
+}
+
+.profile-box {
+  position: relative;
+  background-color: #0d6efd;
+  border-radius: 10px;
+  height: 500px;
+  transform-style: preserve-3d;
+}
+
+.profile-name1 {
+  position: absolute;
+  top: 10px;
+  left: -6;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 5em;
+  font-weight: bold;
+  font-style: italic;
+  transform: translate3d(0, 0, 50px);
+}
+
+.profile-name {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 5em;
+  font-weight: bold;
+  font-style: italic;
+  transform: translate3d(0, 0, 50px);
+}
+
+.profile-category1 {
+  position: absolute;
+  bottom: 5%;
+  left: 25%;
+}
+.profile-category {
+  position: absolute;
+  bottom: 5%;
+  left: 17%;
+}
+
+.profile-img {
+  position: absolute;
+  bottom: 15%;
+  left: 5%;
+  max-width: 350px;
+  transform: translate3d(0, 0, 100px);
 }
